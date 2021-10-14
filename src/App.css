@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
 }
@@ -21,7 +23,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(36, 190, 196);
 }
 
 .App-link {
@@ -35,4 +37,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.todo-wrapper{
+  display: list-item;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(3, 15, 29);
+}
+
+.todo-wrapper h1 {
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+  flex-wrap: wrap;
+
+  color: rgb(139, 245, 218);
+}
+
+.todo-wrapper h3 {
+  text-align: center;
+  width: 100%;
+  margin: 15px;
+  margin-bottom: 50px;
+  color: rgb(139, 245, 218);
+}
+
+.element-wrapper {
+  border: solid rgb(145, 201, 247) 3px;
+  margin: 20px;
+  padding: 10px;
+  width: 200px;
+  align-content: center;
+  background-color: darkcyan;
+}
+
+.lists-wapper {
+  border: solid rgb(202, 197, 197) 1px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.input-wrapper{
+  border: solid rgb(15, 122, 209) 3px;
+  height: 38px; 
+  margin: 0 15px;
+  width : 500px;
+  background-color: rgb(145, 201, 247) ;
+}
+
+.itens-wrapper{
+  text-align: center;
+  margin-top: 10px;
+  margin: 0 5px;
+  display: list-item;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px; 
+  background-color: rgb(61, 115, 160);
+}
+
+.status-wrapper{
+  border: solid rgb(15, 122, 209) 3px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  background-color:cadetblue;
+  font-size: 16;
 }
