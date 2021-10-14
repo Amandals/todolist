@@ -11,13 +11,15 @@ REQUISITOS:
 
 Issue: todas as funcionalidades foram criadas em uma página. 
 
-Bibliotecas instaladas:
-   
+Bibliotecas utilizada: ANT DESIGN
+      ![image](https://user-images.githubusercontent.com/50664172/137342139-57e41778-bc69-4b2a-9177-47a81664bbe8.png)
+      
+      
    npm install antd
    
    npm install --save @ant-design/icons
    #
-   ![image](https://user-images.githubusercontent.com/50664172/137342139-57e41778-bc69-4b2a-9177-47a81664bbe8.png)
+ 
 
 Demonstração das funcionalidades:
 
